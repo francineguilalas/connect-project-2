@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f1e2;
+    color: #3e3e3e;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    /* background-color: #e0dcc1; */
+    color: #3e3e3e;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+span label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    padding: 15px 30px;
+    font-size: 1em;
+    background-color: #3e3e3e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+button[type="submit"]:focus {
+    outline: none;
+}
+
+.button,
+#nextButton {
+    padding: 15px 30px;
+    font-size: 1em;
+    background-color: #3e3e3e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block; /* Ensure button is displayed as inline-block */
+}
+
+.button:hover,
+#nextButton:hover {
+    background-color: #218838;
+}
+
+.button:focus,
+#nextButton:focus {
+    outline: none;
+}

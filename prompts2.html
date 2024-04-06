@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="prompts1.css">
+</head>
+<body>
+    <a href="warning1.html" class="button" id="home-button">Home</a>
+    <header>
+        <h1>Complete Profile</h1>
+    </header>
+    <form id="prompts2" action="prompts3.html">
+       
+
+        <section>
+            <label for="display">Have you participated in any exhibitions or showcases to display your artwork?</label>
+            <div>
+                <label for="display">Yes</label>
+                <input type="radio" id="inspiration-yes" name="display" value="yes">
+                <label for="display">No</label>
+                <input type="radio" id="inspiration-no" name="display" value="no">
+            </div>
+        </section>
+
+        <section>
+            <label for="indepent-projects"><span>Do you have previous work experience within the art industry?</span></label>
+            <div>
+                <label for="projects-yes">Yes</label>
+                <input type="radio" id="projects-yes" name="indepent-projects" value="yes">
+                <label for="proejcts-no">No</label>
+                <input type="radio" id="projects-no" name="indepent-projects" value="no">
+            </div>
+        </section>
+
+        <section>
+            <label for="adobe"><span>Do you have any work any experience in general?</span></label>
+            <div>
+                <label for="adobe-yes">Yes</label>
+                <input type="radio" id="favorite-yes" name="adobe" value="yes">
+                <label for="adobe-no">No</label>
+                <input type="radio" id="favorite-no" name="adobe" value="no">
+            </div>
+        </section>
+
+        <section>
+            <label for="research"><span>Do you take inspiration from your past?</span></label>
+            <div>
+                <label for="research">Yes</label>
+                <input type="radio" id="medium-yes" name="research" value="yes">
+                <label for="research">No</label>
+                <input type="radio" id="medium-no" name="research" value="no">
+            </div>
+        </section>
+
+        <section>
+            <label for="education"><span>Where are you from?</span></label>
+            <div>
+                <input type="text" id="preferred-medium" name="preferred-medium">
+            </div>
+        </section>
+
+        <button type="submit">Next</button>
+        
+    </form>
+    <script src="prompts2.js"></script>
+</body>
+</html>

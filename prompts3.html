@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="prompts1.css">
+</head>
+<body>
+    <a href="warning2.html" class="button" id="home-button">Home</a>
+    <header>
+        <h1>Complete Profile</h1>
+    </header>
+
+    <form id="prompts3" action="prompts4.html">
+
+        <section>
+            <label for="display">What year were you born?</label>
+            <div>
+                <label for="numericInput">Enter Numerical Value:</label>
+                <input type="text" id="numericInput" oninput="this.value = this.value.replace(/[^0-9]/g, '')">            
+            </div>
+        </section>
+
+        <section>
+            <label for="adobe"><span>Would you prefer to work closeby your home?</span></label>
+            <div>
+                <label for="adobe-yes">Yes</label>
+                <input type="radio" id="favorite-yes" name="adobe" value="yes">
+                <label for="adobe-no">No</label>
+                <input type="radio" id="favorite-no" name="adobe" value="no">
+            </div>
+        </section>
+
+        <section>
+            <label for="indepent-projects"><span>What's your address?</span></label>
+            <div>
+                <input type="text" id="preferred-medium" name="preferred-medium">
+            </div>
+        </section>
+
+        <section>
+            <label for="research"><span>What are your pronouns?</span></label>
+            <div>
+                <input type="text" id="preferred-medium" name="preferred-medium">
+
+            </div>
+        </section>
+
+        <section>
+            <label for="display">Are you in a relationship?</label>
+            <div>
+                <label for="adobe-yes">Yes</label>
+                <input type="radio" id="favorite-yes" name="adobe" value="yes">
+                <label for="adobe-no">No</label>
+                <input type="radio" id="favorite-no" name="adobe" value="no">            
+            </div>
+        </section>
+
+        <button type="submit">Next</button>
+        
+    </form>
+    <script src="prompts3.js"></script>
+</body>
+</html>

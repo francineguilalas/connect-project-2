@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="prompts1.css">
+</head>
+<body>
+    <a href="reminder.html" class="button" id="home-button">Home</a>
+    <header>
+        <h1>Complete Profile</h1>
+    </header>
+    <form id="prompts1" action="prompts2.html">
+       
+        <section>
+            <label for="indepent-projects"><span>What's your full name?</span></label>
+            <div>
+                <input type="text" id="preferred-medium" name="preferred-medium">
+
+            </div>
+        </section>
+
+        <section>
+            <label for="indepent-projects"><span>Have you worked on any design projects independently?</span></label>
+            <div>
+                <label for="projects-yes">Yes</label>
+                <input type="radio" id="projects-yes" name="indepent-projects" value="yes">
+                <label for="proejcts-no">No</label>
+                <input type="radio" id="projects-no" name="indepent-projects" value="no">
+            </div>
+        </section>
+
+        <section>
+            <label for="adobe"><span>Are you proficient in using design software such as Adobe Creative Suite?</span></label>
+            <div>
+                <label for="adobe-yes">Yes</label>
+                <input type="radio" id="favorite-yes" name="adobe" value="yes">
+                <label for="adobe-no">No</label>
+                <input type="radio" id="favorite-no" name="adobe" value="no">
+            </div>
+        </section>
+
+        <section>
+            <label for="research"><span>Have you conducted user research as part of a design project?</span></label>
+            <div>
+                <label for="research">Yes</label>
+                <input type="radio" id="medium-yes" name="research" value="yes">
+                <label for="research">No</label>
+                <input type="radio" id="medium-no" name="research" value="no">
+            </div>
+        </section>
+
+        <section>
+            <label for="education"><span>Have you undertaken any formal education or training in art or design?</span></label>
+            <div>
+                <label for="education">Yes</label>
+                <input type="radio" id="style-yes" name="education" value="yes">
+                <label for="education">No</label>
+                <input type="radio" id="style-no" name="education" value="no">
+            </div>
+        </section>
+
+        <button type="submit">Next</button>
+    </form>
+    <script src="prompts1.js"></script>
+</body>
+</html>
